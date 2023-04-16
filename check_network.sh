@@ -1,9 +1,12 @@
 #!/bin/sh
 host=$1
+# How many pings to try in a row before marking as a failure
 pingCount=3
+# How many failed retries before restarting WAN interface
 maxRetry=15
-# Phone nuber to send text message
-sendTextTo=48
+# Phone number to send text message when outage detected
+
+sendTextTo=48602xxxxxx
 
 date=`date --rfc-822`
 
