@@ -3,7 +3,7 @@
 This script will restart your wan if it fails to ping given host e.g. `8.8.8.8`
 
 ```
-./check_networks.sh 8.8.8.8
+./check_network.sh 8.8.8.8
 ```
 
 ### Configuration options:
